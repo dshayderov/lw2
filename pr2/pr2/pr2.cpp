@@ -4,13 +4,7 @@ using namespace std;
 
 int main()
 {
-	string a, b;
-	cout << "Hello!\n";
-	cout << "Your name: ";
-	cin >> a;
-	cout << "Project name: ";
-	cin >> b;
-	cout << "\n" << b << " by " << a << endl;
+	cout << "Calculator\n";
 	int sl1, sl2, sub1, sub2, mul1, mul2, div1, div2, ch;
 	cout << "Choose the action: \n1-Addition\n2-Subtraction\n3-Multiplication\n4-Division\n";
 	cin >> ch;

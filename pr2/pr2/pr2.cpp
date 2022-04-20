@@ -11,8 +11,11 @@ int main()
 	cout << "Project name: ";
 	cin >> b;
 	cout << "\n" << b << " by " << a << endl;
-	int sl1, sl2;
+	int sl1, sl2, sub1, sub2;
 	cout << "Addition\n" << "Enter sl1 and sl2:";
 	cin >> sl1 >> sl2;
 	cout << "Result: " << sl1 + sl2 << endl;
+	cout << "Subtraction\n" << "Enter sub1 and sub2: ";
+	cin >> sub1 >> sub2;
+	cout << "Result: " << sub1 - sub2 << endl;
 }

@@ -11,7 +11,7 @@ int main()
 	cout << "Project name: ";
 	cin >> b;
 	cout << "\n" << b << " by " << a << endl;
-	int sl1, sl2, sub1, sub2, mul1, mul2;
+	int sl1, sl2, sub1, sub2, mul1, mul2, div1, div2;
 	cout << "Addition\n" << "Enter sl1 and sl2:";
 	cin >> sl1 >> sl2;
 	cout << "Result: " << sl1 + sl2 << endl;
@@ -21,4 +21,7 @@ int main()
 	cout << "Multiplicationn\n" << "Enter mul1 and mul2: ";
 	cin >> mul1 >> mul2;
 	cout << "Result: " << mul1*mul2 << endl;
+	cout << "Division\n" << "Enter div1 and div2: ";
+	cin >> div1 >> div2;
+	cout << "Result: " << div1 /div2 << endl;
 }
